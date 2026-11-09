@@ -1,10 +1,4 @@
-// src/app/api/login/route.js
-import { NextResponse } from "next/server";
-
-// TODO: buat endpoint login
+// TODO: buat endpoint POST login
 export async function POST() {
-  return NextResponse.json(
-    { message: "TODO: endpoint login belum dibuat" },
-    { status: 501 }
-  );
+  return Response.json({ message: "TODO: endpoint login belum dibuat" }, { status: 501 });
 }
